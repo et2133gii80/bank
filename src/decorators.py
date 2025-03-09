@@ -8,7 +8,6 @@ from logging_config import setup_logging
 setup_logging()
 logger = logging.getLogger("my_log")
 
-
 def decorator_record_file(file_name):
     """
     Декоратор, который записывает результат выполнения функции в JSON файл. Принимает на вход имя файла.
